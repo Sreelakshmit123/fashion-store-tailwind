@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>FASHION HUB</title>
+</head>
+<body>
+<!-- navbar -->
+  <nav class="bg-white text-black w-full uppercase tracking-wide md:text-lg px-12 ">
+    <div class="container mx-auto flex flex-row justify-between items-center">
+      <div class="h-[100px] w-[100px]">
+        <img src="./f88d652fc7ae678514c9062a26ff0116-removebg-preview.png" alt="">
+      </div>
+      <ul class="hidden md:flex flex-row gap-16 justify-center items-center">
+        <li><a class="md:hover:text-pink-600 font-bold" href="#">HOME</a></li>
+        <li><a class="md:hover:text-pink-600" href="#">FASHION</a></li>
+        <li><a class="md:hover:text-pink-600" href="#">TREND</a></li>
+        <li><a class="md:hover:text-pink-600" href="#">TOP SALE</a></li>
+        <li class=""><a class="bg-black text-white rounded-md py-4 px-4 md:hover:text-pink-600 md:hover:bg-gray-300" href="#">SIGN UP</a></li>
+      </ul>
+      <!-- MOBILE NAV -->
+      <div class="md:hidden">
+        <div class="space-y-1 rotate-180" id="hamburger">
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+        </div>
+        <ul class="flex flex-col gap-5 h-screen absolute top-0 left-0 bg-primary p-10 items-center -translate-x-full" id="mobile-nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">FASHION</a></li>
+          <li><a href="#">LIFESTYLE</a></li>
+          <li><a href="#">FAVOURATE</a></li>
+          <li class=""><a href="#">SIGN UP</a></li>
+        </ul>
+      </div>
+      <!-- MOBILE NAV END -->
+    </div>
+  </nav>
+  <!-- NAV END -->
+<!-- landing page -->
+<section class="flex flex-col container mx-auto bg-gray-100 pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row md:justify-between ">
+    <div class="flex flex-col px-12 items-center text-black md:pc-[68px] pb-10 ">
+      <h1 class="text-3xl font-bold md:leading-tight md:text-6xl">Get up to 30% Off <br>
+                    New Arrivals <br>
+      </h1>
+    <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-8">
+      <a class="bg-black text-white rounded-md  p-2 hover:bg-red-800" href="#">Shop Now</a>
+    </div>
+  </div>
+  <div data-aos="fade-left"
+  data-aos-offset="300"
+  data-aos-duration="2000"
+  data-aos-easing="ease-in-sine">
+    <img src="./cloth-removebg-preview.png" alt="">
+  </div>
+</section> 
+<!-- return and delivery policy details section -->
+
+<!-- men women accesiores section -->
+<section class="">
+    <div class="max-w-full mx-auto mt-5 md:max-w-4xl ml-10 md:ml-[320px] lg:ml-[320px]">
+      <div class="flex flex-cols-3 flex-col md:flex-row  gap-7">
+        <div class="w-[300px]  ">
+          <ul>
+            <a href=""><img class="max-w-full  mx-auto mt-3 rounded md:max-w-10xl h-[371px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 "
+              src="https://assets.vogue.in/photos/5dca9426f1e7c800086766a0/4:3/w_664,h_498,c_limit/online-shopping.jpg"
+              alt=""></a>
+            <a href=""><h1 class="font-bold text-center animate-bounce  mt-4">WOMEN</h1></a>
+          </ul>
+        </div>
+        <div class="w-[300px] ">
+          <a href=""><img class="max-w-full  mx-auto mt-3 rounded md:max-w-10xl h-[350px] w-[350px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 "
+            src="https://d1pdzcnm6xgxlz.cloudfront.net/tops/8905074799053-18.jpg"
+            alt=""></a>
+          <a href=""><h1 class="font-bold text-center animate-bounce  mt-4">MEN</h1></a>
+        </div>
+        <div class="w-[300px] ">
+          <a href=""><img class="max-w-full  mx-auto mt-3 rounded md:max-w-10xl h-[375px]  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 "
+            src="https://images.pexels.com/photos/1620760/pexels-photo-1620760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
+            <a href=""><h1 class="font-bold text-center animate-bounce  mt-4">KIDS</h1></a>
+        </div>
+      </div>
+    </div>
+</section>
+<!--  -->
+<!-- new collection -->
+<section class="flex flex-col container items-start gap-10  px-[10px] ">
+  <div class="relative text-black">
+    <h2 class="text-4xl font-black md:ml-[100px] ml-7 mt-10">NEW COLLECTION</h2>
+  </div>
+    <div class="grid-flow-row grid-rows-1 gap-24 md:flex md:flex-cols-3">
+      <!-- cards -->
+
+
+ 
+
+     <div class="flex flex-col w-full gap-7 md:ml-[100px]">
+        <img class=" h-[400px] object-cover rounded-[50px]" src="https://i.etsystatic.com/17559845/r/il/a4e6b3/5027505415/il_fullxfull.5027505415_1lml.jpg" alt="">
+        <div class="flex flex-row justify-between items-center mr-12">
+          <div class="flex flex-col ml-5">
+            <h3 class="text-[32px] font-medium ">Tees & T-Shirt</h3>
+            <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+          </div>
+          <div>
+            <img class="w-[30px] mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+          </div>
+        </div>
+     </div>
+    
+<div class="flex flex-col w-full gap-5 ">
+      <img class=" h-[400px] object-cover rounded-[50px]" src="https://lucyfelton.com/wp-content/uploads/2017/04/NewLookPink-Hoodie.jpg" alt="">
+      <div class="flex flex-row justify-between items-center mr-12">
+        <div class="flex flex-col ml-5">
+          <h3 class="md:text-[32px] text-3xl  font-medium">Hoddies <br>&Sweetshirt</h3>
+          <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+        </div>
+        <div >
+          <img class="w-[30px] md:ml-14 ml-6  mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+        </div>
+      </div>
+   </div>
+   
+   <div class="flex flex-col w-full gap-7 md:mr-[100px]">
+    <img class=" h-[400px] object-cover rounded-[50px]" src="https://static.zara.net/photos///2023/I/0/1/p/7522/267/401/3/w/560/7522267401_15_1_1.jpg?ts=1694621927119" alt="">
+    <div class="flex flex-row justify-between items-center mr-12">
+      <div class="flex flex-col ml-5">
+        <h3 class="text-[32px] font-medium ">Coats & Parkas</h3>
+        <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+      </div>
+      <div>
+        <img class="w-[30px]  mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+      </div>
+    </div>
+ </div>
+    </div>
+</section>
+<!-- new collection end -->
+<!-- choose Us -->
+
+<section class="flex flex-col container mx-auto bg-gray-100 pb-10 pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row md:justify-between ">
+ 
+<div data-aos="fade-left"
+data-aos-offset="300"
+data-aos-duration="2000"  
+data-aos-easing="ease-in-sine">
+  <img class="rounded" src="https://img.freepik.com/premium-photo/senior-female-fashion-designer-near-new-collection-women-clothes-tailoring-mannequin-fashion-clothing-design-workshop_328764-9833.jpg" alt="">
+</div>
+
+<div class="flex flex-col px-12 items-center text-black md:pc-[68px] pb-10 ">
+  <h1 class="text-1xl md:leading-tight md:text-7xl"><b>Why</b> <br><b> Choose Us</b> <br>
+    <p class="text-1xl md:leading-tight md:text-2xl">Lorem, ipsum dolor sit amet  consectetur adipisicing  elit. <br> Voluptatem explicabo, voluptatum facere minima <br> soluta quos ratione voluptates error reprehenderit et <br> libero, dolores alias velit. Nemo quidem illo a dignissimos unde!</p>        
+  </h1>
+
+<div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-8">
+  <a class="bg-black text-white rounded-md  p-2 hover:bg-red-800" href="#">Read More</a>
+</div>
+</div>
+</section>
+<!-- choose us end  -->
+<!-- Accessories -->
+<section class="flex flex-col container items-start gap-10  px-[10px] ">
+  <div class="relative text-black">
+    <h2 class="text-4xl font-black md:ml-[100px] ml-12 mt-10">ACCESSIORES</h2>
+  </div>
+    <div class="grid-flow-row grid-rows-1 gap-24 md:flex md:flex-cols-3">
+      <!-- cards -->
+     <div class="flex flex-col w-full gap-7 md:ml-[100px]">
+        <img class=" h-[400px] object-cover rounded-[50px]" src="https://qph.cf2.quoracdn.net/main-qimg-43101f004c79c4630f9f97a5ab53d220-lq" alt="">
+        <div class="flex flex-row justify-between items-center mr-12">
+          <div class="flex flex-col ml-5">
+            <h3 class="text-[32px] font-medium ">Men Accessories</h3>
+            <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+          </div>
+          <div>
+            <img class="w-[30px] mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+          </div>
+        </div>
+     </div>
+     <div class="flex flex-col w-full gap-5 ">
+      <img class=" h-[400px] object-cover rounded-[50px]" src="https://sassytownhouseliving.com/wp-content/uploads/2021/07/How-To-Style-Any-Outfit-With-Beautiful-Fashion-Accessories.jpeg" alt="">
+      <div class="flex flex-row justify-between items-center mr-12">
+        <div class="flex flex-col ml-5">
+          <h3 class="md:text-[32px] text-3xl  font-medium">Women Accessories</h3>
+          <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+        </div>
+        <div >
+          <img class="w-[30px] md:ml-14 ml-6  mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+        </div>
+      </div>
+   </div>
+
+   
+   <div class="flex flex-col w-full gap-7 md:mr-[100px]">
+    <img class=" h-[400px] object-cover rounded-[50px]" src="https://img.ltwebstatic.com/images3_spmp/2023/08/17/21/169227305365dc150bce91a8005a68e187fd0967ca_thumbnail_720x.jpg   " alt="">
+    <div class="flex flex-row justify-between items-center mr-12">
+      <div class="flex flex-col ml-5">
+        <h3 class="text-[32px] font-medium ">kids Accessories</h3>
+        <a class="text-2xl text-gray-400  mb-10" href="#">Explore Now!</a>
+      </div>
+      <div>
+        <img class="w-[30px]  mb-10 animate-bounce" src="https://cdn-icons-png.flaticon.com/512/1549/1549612.png" alt="">
+      </div>
+    </div>
+ </div>
+    </div>
+</section>
+<!-- access end -->
+<!-- deals on the week  -->
+<section class="flex flex-col container mx-auto bg-light mt-10 bg-green-50 pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row md:justify-between mb-20 w-[86%] rounded-[20px]">
+  <div class="flex flex-col px-12 items-center text-black md:pc-[68px] pb-10 ">
+    <h1 class="text-4xl font-bold md:leading-tight md:text-6xl">DEAL OF THE WEEK
+    </h1>
+    <P class="md:text-sm text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat omnis atque  <br>laudantium iusto explicabo vitae, quas asperiores unde enim facere.</P>
+  <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-8">
+    <a class="bg-black text-white rounded-md  p-2 hover:bg-red-800" href="#">Explore Now</a>
+  </div>
+</div>
+<div class="md:h-[400px] h-[200px]" data-aos="fade-left"
+data-aos-offset="300"
+data-aos-duration="2000"
+data-aos-easing="ease-in-sine">
+  <img class="md:h-[500px] md:w-[430px] " src="https://www.reviewed.com/web-stories/10-must-have-plus-size-clothes-from-old-navy/assets/5.png" alt="">
+</div>
+</section> 
+<!-- brand section -->
+  <section class="flex flex-row justify-center items-center md:gap-[85px] gap-[10px] bg-white-200 md:flex-row md:pt-10 pt-10">
+    <div class="md:w-[118px] w-[70px]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/640px-H%26M-Logo.svg.png" alt=""></div>
+    <div class="md:w-[150px] w-[90px]"><img src="https://www.tayanasolutions.com/wp-content/uploads/2021/04/Shopify-Logo.png" alt=""></div>
+    <div class="md:w-[176px] w-[70px]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Levis-logo-quer.svg/2560px-Levis-logo-quer.svg.png" alt=""></div>
+    <div class="md:w-[150px] w-[70px]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt=""></div>
+    <div class="md:w-[127px] w-[70px]"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Lacoste_logo.svg/800px-Lacoste_logo.svg.png" alt=""></div>
+    <div class="md:w-[166px] w-[70px]"><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Obey%27s_Logo.png" alt=""></div>
+  </section>
+<!-- foooter -->
+<footer class="bg-gray-400 py-[120px] text-white flex flex-col gap-24 px-14 md:items-center md:gap-[25px] md:flex-row md:justify-between md:px-[100px] ">
+  <div class="flex flex-col items-start ">
+     <div class="h=[100px] w-[100px]">
+       <img src="./f88d652fc7ae678514c9062a26ff0116-removebg-preview.png" alt="">
+     </div>
+     <div>
+       <p class="text-xl text-black md:text-xl font-normal ml-4">Feel The Fashion </p>
+     </div>
+     <ul class="flex flex-row gap-[18px] ml-4 mt-5 text-black text-[30px]">
+      <a class="hover:text-pink-600" href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a class="hover:text-pink-600" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a class="hover:text-pink-600" href="#"><i class="fa-brands fa-square-twitter"></i></a>
+     </ul>
+  </div>
+  <div class="flex flex-col gap-[50px] md:flex-row">
+       <div class="flex flex-col gap-8 text-black">
+         <h4 class="font-bold">Company</h4>
+         <ul class="flex flex-col gap-4">
+           <li><a href="">About us</a></li>
+           <li><a href="">Contact Us</a></li>
+           <li><a href="">Support</a></li>
+           <li><a href=""></a></li>
+         </ul>
+       </div>
+  </div>
+  <div class="flex flex-col gap-[50px] md:gap-[188px] md:flex-row mb-5">
+    <div class="flex flex-col gap-8 text-black">
+      <h4 class="font-bold">Quick Link</h4>
+      <ul class="flex flex-col gap-4">
+        <li><a href="">Share Location</a></li>
+        <li><a href="">Orders Tracking</a></li>
+        <li><a href="">FAQs</a></li>
+      </ul>
+    </div>
+</div>
+<div class="flex flex-col gap-[50px] md:gap-[188px] md:flex-row mb-[55px]">
+  <div class="flex flex-col gap-8 text-black">
+    <h4 class="font-bold">Legal</h4>
+    <ul class="flex flex-col gap-4">
+      <li><a href="">Terms and Conditions</a></li>
+      <li><a href="">Privacy policy</a></li>
+    </ul>
+  </div>
+</div>
+ </footer>
+ <!-- footer end -->
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
